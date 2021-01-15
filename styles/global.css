@@ -219,8 +219,8 @@ body {
     position: absolute;
     background-color: transparent;
     top: 80px;
-    left: 25%;
-    width: 50%;
+    left: 30%;
+    width: 40%;
     height: 80vh;
     padding: 10px;
     z-index: 999;
@@ -240,9 +240,9 @@ body {
 
 .large-container-inner {
     text-align: center;
-    background-color: #0c64b1;
+    background-color: #1890ff;
     padding: 10px;
-    width: 50%;
+    width: 100%;
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     border-radius: 5px;
 }
