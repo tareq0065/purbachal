@@ -217,7 +217,7 @@ body {
 
 .content-container {
     position: absolute;
-    background: #f7f7f7;
+    background-color: transparent;
     top: 80px;
     left: 5%;
     width: 90%;
