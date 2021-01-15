@@ -219,8 +219,8 @@ body {
     position: absolute;
     background-color: transparent;
     top: 80px;
-    left: 5%;
-    width: 90%;
+    left: 25%;
+    width: 50%;
     height: 80vh;
     padding: 10px;
     z-index: 999;
@@ -248,7 +248,7 @@ body {
 }
 
 .large-title {
-    font-size: 60px;
+    font-size: 25px;
     margin: 0;
     font-weight: 600;
     color: #fff;
@@ -283,12 +283,13 @@ body {
 
     .content-container {
         top: 60px;
-        width: 90%;
+        width: 80%;
+        left: 10%;
         height: 90vh;
     }
 
     .large-title {
-        font-size: 30px;
+        font-size: 16px;
         font-weight: 600;
     }
 
