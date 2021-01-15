@@ -251,7 +251,7 @@ body {
 }
 
 .large-title {
-    font-size: 25px;
+    font-size: 35px;
     margin: 0;
     font-weight: 600;
     color: #fff;
@@ -292,11 +292,15 @@ body {
     }
 
     .large-title {
-        font-size: 16px;
+        font-size: 25px;
         font-weight: 600;
     }
 
     .content-container-inner {
         height: 85%;
+    }
+
+    .plot-title {
+        font-size: 20px;
     }
 }
