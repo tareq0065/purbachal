@@ -46,7 +46,7 @@ const Home = (props) => {
                         {
                             props.plots.map((item, index) => {
                                 return (
-                                    <Col key={index} xs={{span: 24}} lg={{span: 12}}>
+                                    <Col key={index} xs={{span: 12}} lg={{span: 12}}>
                                         <div className="plot-content">
                                             <h2 className="plot-title">{item.plotName}</h2>
                                             <h2 className="plot-title text-disabled">{item.available}</h2>
