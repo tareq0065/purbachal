@@ -290,7 +290,7 @@ body {
         top: 25%;
         width: 80%;
         left: 10%;
-        height: 90vh;
+        height: auto;
     }
 
     .large-title {
