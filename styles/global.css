@@ -184,6 +184,11 @@ body {
     font-weight: 600;
 }
 
+.tagline {
+    line-height: 35px;
+    font-size: 25px;
+}
+
 /*home start*/
 
 .header {
