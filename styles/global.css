@@ -178,6 +178,11 @@ body {
     color: var(--textColorSecondary) !important;
 }
 
+.home-logo {
+    text-align: center;
+    width: 200px;
+}
+
 .logo {
     font-size: 40px;
     margin: 0;
@@ -277,6 +282,50 @@ body {
     text-align: center;
 }
 
+.info-button, .info-button:focus, .info-button:hover {
+    position: absolute;
+    bottom: 24px;
+    right: 12px;
+    z-index: 9;
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    line-height: initial;
+    display: flex;
+    font-size: 18px;
+    animation: pulse 2.25s cubic-bezier(0.66, 0, 0, 1) 0s infinite;
+}
+
+/*css pulse*/
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 53, 53, 0.7);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(195, 35, 43, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(195, 35, 43, 0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(255, 53, 53, 0.7);
+        box-shadow: 0 0 0 0 rgba(255, 53, 53, 0.5);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(0, 148, 248, 0);
+        box-shadow: 0 0 0 10px rgba(0, 148, 248, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(0, 148, 248, 0);
+        box-shadow: 0 0 0 0 rgba(0, 148, 248, 0);
+    }
+}
+
+/*css pulse end*/
 
 /*responsive fixes*/
 
@@ -289,6 +338,10 @@ body {
         height: 60px;
         text-align: center;
         top: 10%;
+    }
+
+    .home-logo {
+        width: 100%;
     }
 
     .content-container {
@@ -311,3 +364,31 @@ body {
         font-size: 20px;
     }
 }
+
+
+/*admin start*/
+
+.admin-header-background {
+    background: #fff;
+}
+
+.admin-layout-background {
+    background: #fff;
+}
+
+.admin-header-logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+
+.admin-loader {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding: 30px 50px;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*admin end*/

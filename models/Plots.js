@@ -16,7 +16,6 @@ const PlotsSchema = new mongoose.Schema({
     availability: {
         type: Boolean,
         default: true,
-        required: [true, 'Please provide quantity.'],
     },
     mobileNumber: {
         type: String,
