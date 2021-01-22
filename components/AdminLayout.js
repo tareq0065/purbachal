@@ -8,7 +8,13 @@ const { Header, Content, Footer, Sider } = Layout;
 
 const AdminLayout = (props) => {
     const router = useRouter();
-    const [currentUser] = useLocalStorage("currentUser");
+    const [currentUser, setCurrentUser] = useLocalStorage("currentUser");
+
+    useEffect(() => {
+        if (!currentUser) {
+            window.location = "/admin"
+        }
+    }, [])
 
     return (
         <Layout>
@@ -38,6 +44,15 @@ const AdminLayout = (props) => {
                                 View Requests
                             </a>
                         </Link>
+                    </Menu.Item>
+                    <Menu.Item
+                        key="logout"
+                        onClick={() => {
+                            setCurrentUser(false);
+                            window.location = "/admin"
+                        }}
+                    >
+                        Logout
                     </Menu.Item>
                 </Menu>
             </Sider>

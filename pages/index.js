@@ -4,6 +4,7 @@ import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
 import {Button, Col, Modal, Row, Form, Input} from "antd";
 import dbConnect from '../utils/dbConnect';
 import Plots from '../models/Plots';
+import {postData} from "../utils/helpers";
 
 const Map = ReactMapboxGl({
     accessToken: 'pk.eyJ1IjoidGFyZXFheml6MDA2NSIsImEiOiJjamNvbjQ3cnAyNXgyMzNybnlmN3p5NGFkIn0.zbs39bVfUf9ztz3AxnNTDg'
@@ -32,7 +33,23 @@ const Home = (props) => {
     const [form] = Form.useForm();
 
     const onFinish = (values) => {
-        console.log('Success:', values);
+        postData('sales', values)
+            .then((resp) => {
+                if (resp.success) {
+                    form.resetFields();
+                    setSellModal(false);
+                    Modal.success({
+                        title: 'Success',
+                        content: "Thanks for submitting your valuable information. We will contact with you soon.",
+                    });
+                }
+                else {
+                    Modal.error({
+                        title: 'Success',
+                        content: "Cannot submit you information now.",
+                    });
+                }
+            })
     };
 
     const onFinishFailed = (errorInfo) => {
