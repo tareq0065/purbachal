@@ -30,6 +30,7 @@ const Home = (props) => {
     const [mapCenter, setMapCenter] = useState([90.51465942166527, 23.84351211073789]);
     const [mapZoom, setMapZoom] = useState([14]);
     const [sellModal, setSellModal] = useState(false);
+    const [viewNumber, setViewNumber] = useState(false);
     const [form] = Form.useForm();
 
     const onFinish = (values) => {
@@ -233,7 +234,22 @@ const Home = (props) => {
                                             <h2 className="plot-title">{item.plotName}</h2>
                                             <h2 className="plot-title text-disabled">{item.available}</h2>
                                             <Button
-                                                href="tel:0171351717"
+                                                className="cta-mobile-hide"
+                                                type="primary"
+                                                disabled={!item.availability}
+                                                block
+                                                onClick={() => {
+                                                    setViewNumber(index === viewNumber ? false : index);
+                                                }}
+                                            >
+                                                {
+                                                    (viewNumber === index) ? "01713518167" : item.availability ? "Available" : "Not Available"
+                                                }
+                                            </Button>
+
+                                            <Button
+                                                className="cta-desktop-hide"
+                                                href="tel:01713518167"
                                                 type="primary"
                                                 disabled={!item.availability}
                                                 block
@@ -253,7 +269,7 @@ const Home = (props) => {
                 onClick={() => {
                     Modal.info({
                         title: null,
-                        content: "দেড় দশকের অভিজ্ঞ ও বিশ্বস্ত। প্লট ক্রয়-বিক্রয় সংক্রান্ত সরাসরি যোগাযোগ: বাড়ী ০৯, রোড ০১, সেক্টর ০৬, উত্তরা, ঢাকা। মোবাইল: ০১৭১৩৫১৮১৬৭",
+                        content: <p style={{fontSize: 20}}>প্রিয় মহোদয়, আমরা দেড় দশকের অভিজ্ঞ ও বিশ্বস্ত। প্লট ক্রয়-বিক্রয় সংক্রান্ত সরাসরি যোগাযোগ: বাড়ী ০৯, রোড ০১, সেক্টর ০৬, উত্তরা, ঢাকা-১২৩০। মোবাইল: ০১৭১৩৫১৮১৬৭</p>,
                     });
                 }}
             >

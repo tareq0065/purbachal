@@ -180,7 +180,7 @@ body {
 
 .home-logo {
     text-align: center;
-    width: 200px;
+    width: 250px;
 }
 
 .logo {
@@ -325,6 +325,14 @@ body {
     }
 }
 
+.cta-desktop-hide {
+    display: none;
+}
+
+.cta-mobile-hide {
+    display: block;
+}
+
 /*css pulse end*/
 
 /*responsive fixes*/
@@ -363,6 +371,15 @@ body {
     .plot-title {
         font-size: 20px;
     }
+
+    .cta-desktop-hide {
+        display: block;
+    }
+
+    .cta-mobile-hide {
+        display: none;
+    }
+
 }
 
 
