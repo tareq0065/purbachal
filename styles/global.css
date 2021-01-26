@@ -308,7 +308,7 @@ body {
 
 .info-button, .info-button:focus, .info-button:hover {
     position: absolute;
-    bottom: 24px;
+    bottom: 55px;
     right: 12px;
     z-index: 9;
     background-color: red;

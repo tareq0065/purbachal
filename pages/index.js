@@ -58,7 +58,10 @@ const Home = (props) => {
     };
 
     return (
-        <HomeLayout>
+        <HomeLayout
+            title="Rajuk Purbachal Plot Dhaka Bangladesh"
+            description="Trusted Rajuk Purbachal Plot Manager in Dhaka Bangladesh. Buy Sale Your Rajuk Purbachal New Town Plot with Best Price."
+        >
             <Map
                 center={mapCenter}
                 zoom={mapZoom}
@@ -264,6 +267,17 @@ const Home = (props) => {
                     </Row>
                 </div>
             </div>
+            <a
+                className="info-button"
+                onClick={() => {
+                    Modal.info({
+                        title: null,
+                        content: <p style={{fontSize: 20}}>প্রিয় মহোদয়, আমরা দেড় দশকের অভিজ্ঞ ও বিশ্বস্ত। প্লট ক্রয়-বিক্রয় সংক্রান্ত সরাসরি যোগাযোগ: বাড়ী ০৯, রোড ০১, সেক্টর ০৬, উত্তরা, ঢাকা-১২৩০। মোবাইল: ০১৭১৩৫১৮১৬৭</p>,
+                    });
+                }}
+            >
+                Info
+            </a>
         </HomeLayout>
     )
 }
