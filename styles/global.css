@@ -226,6 +226,30 @@ body {
 
 /*}*/
 
+.footer {
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #fff;
+}
+
+.footer .footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.footer .footer-menu a {
+    color: #191a1b;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
 /*home end*/
 
 .content-container {
