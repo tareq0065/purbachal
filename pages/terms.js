@@ -3,7 +3,10 @@ import HomeLayout from "../components/HomeLayout";
 
 const Terms = (props) => {
     return (
-        <HomeLayout>
+        <HomeLayout
+            title="Terms of use"
+            description="Trusted Rajuk Purbachal Plot Manager in Dhaka Bangladesh. Buy Sale Your Rajuk Purbachal New Town Plot with Best Price."
+        >
             <div className="content-container">
                 <h1>
                     Terms of Use

@@ -20,6 +20,7 @@
     "mongoose": "^5.11.12",
     "next": "latest",
     "next-connect": "^0.9.1",
+    "next-seo": "^4.17.0",
     "postcss-preset-env": "^6.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
