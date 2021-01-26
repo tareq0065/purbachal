@@ -64,7 +64,7 @@ const Home = (props) => {
                 zoom={mapZoom}
                 style="mapbox://styles/mapbox/streets-v9"
                 containerStyle={{
-                    height: '100vh',
+                    height: '94vh',
                     width: '100vw'
                 }}
                 attributionControl={false}
@@ -264,17 +264,6 @@ const Home = (props) => {
                     </Row>
                 </div>
             </div>
-            <a
-                className="info-button"
-                onClick={() => {
-                    Modal.info({
-                        title: null,
-                        content: <p style={{fontSize: 20}}>প্রিয় মহোদয়, আমরা দেড় দশকের অভিজ্ঞ ও বিশ্বস্ত। প্লট ক্রয়-বিক্রয় সংক্রান্ত সরাসরি যোগাযোগ: বাড়ী ০৯, রোড ০১, সেক্টর ০৬, উত্তরা, ঢাকা-১২৩০। মোবাইল: ০১৭১৩৫১৮১৬৭</p>,
-                    });
-                }}
-            >
-                Info
-            </a>
         </HomeLayout>
     )
 }
