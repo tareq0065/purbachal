@@ -5,7 +5,7 @@ const About = (props) => {
     return (
         <HomeLayout>
             <div className="content-container">
-                <p className="p1"><strong>RAJUK Purbachal Plot Project</strong></p>
+                <p className="p1"><strong>RAJUK Purbachal New Town</strong></p>
                 <p className="p1">Keeping in mind the expanding capital, the government took initiative to expand the
                     city of Dhaka long ago. Since then, RAJUK has been aspiring for land in the Purbachal project.
                     Because this whole city is being built keeping in mind the pressure of the growing population and
