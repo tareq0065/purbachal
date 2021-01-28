@@ -3,7 +3,10 @@ import HomeLayout from "../components/HomeLayout";
 
 const About = (props) => {
     return (
-        <HomeLayout>
+        <HomeLayout
+            title="About"
+            description="Trusted Rajuk Purbachal Plot Manager in Dhaka Bangladesh. Buy Sale Your Rajuk Purbachal New Town Plot with Best Price."
+        >
             <div className="content-container">
                 <p className="p1"><strong>RAJUK Purbachal New Town</strong></p>
                 <p className="p1">Keeping in mind the expanding capital, the government took initiative to expand the
