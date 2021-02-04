@@ -180,11 +180,11 @@ body {
 
 .home-logo {
     text-align: center;
-    width: 250px;
+    width: 480px;
 }
 
 .logo {
-    font-size: 40px;
+    font-size: 30px;
     margin: 0;
     font-weight: 600;
 }
@@ -363,7 +363,7 @@ body {
 
 @media all and (max-width: 992px) {
     .logo {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .header {
@@ -374,6 +374,11 @@ body {
 
     .home-logo {
         width: 100%;
+    }
+
+    .tagline {
+        line-height: 25px;
+        font-size: 20px;
     }
 
     .content-container {

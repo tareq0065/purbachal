@@ -33,8 +33,8 @@ const HomeLayout = (props) => {
             />
             <Header className="header">
                 <div className="home-logo">
-                    <h1 className="logo text-disabled">পূর্বাচল প্লট</h1>
-                    <h4 className="tagline text-disabled">ক্রয়-বিক্রয়</h4>
+                    <h1 className="logo text-disabled">PURBACHAL NEW TOWN</h1>
+                    <h4 className="tagline text-disabled">PLOT FOR SALE</h4>
                 </div>
             </Header>
             <Content className="site-layout">
@@ -43,9 +43,9 @@ const HomeLayout = (props) => {
             <div className="footer">
                 <div className="footer-menu">
                     <Link href="/"><a>Home</a></Link>
-                    <Link href="about"><a>About</a></Link>
-                    <Link href="terms"><a>Terms of use</a></Link>
-                    <Link href="privacy"><a>Privacy & policy</a></Link>
+                    <Link href="/about"><a>About</a></Link>
+                    <Link href="/terms"><a>Terms of use</a></Link>
+                    <Link href="/privacy"><a>Privacy & policy</a></Link>
                 </div>
             </div>
         </Layout>

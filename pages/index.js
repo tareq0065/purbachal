@@ -218,15 +218,6 @@ const Home = (props) => {
                 </Form>
             </Modal>
             <div className="content-container">
-                <div className="large-container">
-                    <div className="large-container-inner">
-                        <a
-                            onClick={() => {
-                                setSellModal(true);
-                            }}
-                        ><h1 className="large-title">বিক্রি করবেন?</h1></a>
-                    </div>
-                </div>
                 <div className="content-container-inner">
                     <Row gutter={40}>
                         {
@@ -265,6 +256,15 @@ const Home = (props) => {
                             })
                         }
                     </Row>
+                </div>
+                <div className="large-container">
+                    <div className="large-container-inner">
+                        <a
+                            onClick={() => {
+                                setSellModal(true);
+                            }}
+                        ><h1 className="large-title">List Your Property</h1></a>
+                    </div>
                 </div>
             </div>
             <a
