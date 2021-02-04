@@ -8,13 +8,13 @@ const HomeLayout = (props) => {
     return (
         <Layout>
             <NextSeo
-                title={props.title ? props.title+" | পূর্বাচল প্লট" : "পূর্বাচল প্লট"}
-                description={props.description ? props.description : "পূর্বাচল প্লট"}
+                title={props.title ? props.title : "purbachalplot"}
+                description={props.description ? props.description : "purbachalplot"}
                 canonical="https://purbachalplot.com/"
                 openGraph={{
                     url: 'https://purbachalplot.com/',
-                    title: props.title ? props.title+" | পূর্বাচল প্লট" : "পূর্বাচল প্লট",
-                    description: props.description ? props.description : "পূর্বাচল প্লট",
+                    title: props.title ? props.title : "",
+                    description: props.description ? props.description : "purbachalplot",
                     images: [
                         {
                             url: 'https://purbachalplot.com/og.png',
@@ -33,7 +33,7 @@ const HomeLayout = (props) => {
             />
             <Header className="header">
                 <div className="home-logo">
-                    <h1 className="logo text-disabled">PURBACHAL NEW TOWN</h1>
+                    <h1 className="logo text-disabled">PURBACHAL PLOT</h1>
                     <h4 className="tagline text-disabled">PLOT FOR SALE</h4>
                 </div>
             </Header>
