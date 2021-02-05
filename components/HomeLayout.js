@@ -34,7 +34,7 @@ const HomeLayout = (props) => {
             <Header className="header">
                 <div className="home-logo">
                     <h1 className="logo text-disabled">PURBACHAL PLOT</h1>
-                    <h4 className="tagline text-disabled">PLOT FOR SALE</h4>
+                    <h4 className="tagline text-disabled">FOR SALE</h4>
                 </div>
             </Header>
             <Content className="site-layout">
