@@ -180,7 +180,6 @@ body {
 
 .home-logo {
     text-align: center;
-    width: 480px;
 }
 
 .logo {
@@ -255,7 +254,7 @@ body {
 .content-container {
     position: absolute;
     background-color: transparent;
-    top: 80px;
+    top: 120px;
     left: 30%;
     width: 40%;
     height: 80vh;
