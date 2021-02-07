@@ -263,7 +263,7 @@ const Home = (props) => {
                             onClick={() => {
                                 setSellModal(true);
                             }}
-                        ><h1 className="large-title">List Your Property</h1></a>
+                        ><h1 className="large-title">+ Add Property</h1></a>
                     </div>
                 </div>
             </div>
