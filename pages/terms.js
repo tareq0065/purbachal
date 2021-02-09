@@ -5,7 +5,7 @@ const Terms = (props) => {
     return (
         <HomeLayout
             title="Terms of use"
-            description="Trusted Rajuk Purbachal Plot Manager in Dhaka Bangladesh. Buy Sale Your Rajuk Purbachal New Town Plot with Best Price."
+            description="Trusted Rajuk Purbachal Plot Manager in Dhaka Bangladesh. Buy Sale Your Rajuk Purbachal New Town Plot with Best Price"
         >
             <div className="content-container">
                 <h1>
