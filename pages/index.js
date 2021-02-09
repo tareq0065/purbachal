@@ -60,7 +60,7 @@ const Home = (props) => {
     return (
         <HomeLayout
             title="Rajuk Purbachal Plot Dhaka Bangladesh"
-            description="Trusted Rajuk Purbachal Plot Manager in Dhaka Bangladesh. Buy Sale Your Rajuk Purbachal New Town Plot with Best Price."
+            description="Trusted Rajuk Purbachal Plot Manager in Dhaka Bangladesh. Buy Sale Your Rajuk Purbachal New Town Plot with Best Price"
         >
             <Map
                 center={mapCenter}

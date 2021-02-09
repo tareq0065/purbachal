@@ -5,7 +5,7 @@ const Privacy = (props) => {
     return (
         <HomeLayout
             title="Privacy and Policy"
-            description="Trusted Rajuk Purbachal Plot Manager in Dhaka Bangladesh. Buy Sale Your Rajuk Purbachal New Town Plot with Best Price."
+            description="Trusted Rajuk Purbachal Plot Manager in Dhaka Bangladesh. Buy Sale Your Rajuk Purbachal New Town Plot with Best Price"
         >
             <div className="content-container">
                 <h1 className="p1">Privacy Policy</h1>

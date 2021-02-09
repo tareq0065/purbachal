@@ -5,7 +5,7 @@ const About = (props) => {
     return (
         <HomeLayout
             title="About"
-            description="Trusted Rajuk Purbachal Plot Manager in Dhaka Bangladesh. Buy Sale Your Rajuk Purbachal New Town Plot with Best Price."
+            description="Trusted Rajuk Purbachal Plot Manager in Dhaka Bangladesh. Buy Sale Your Rajuk Purbachal New Town Plot with Best Price"
         >
             <div className="content-container">
                 <p className="p1"><strong>RAJUK Purbachal New Town</strong></p>
